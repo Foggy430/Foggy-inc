@@ -1,0 +1,200 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+    text-align: center;
+}
+.container h5 {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.rounded-circle {
+    border-radius: 50%;
+}
+.modal-footer {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Добавьте стили для заголовков, ссылок и других элементов по вашему желанию */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+}
+
+a {
+    color: #bb86fc;
+}
+
+/* Пример стилизации кнопки */
+.btn-primary {
+    background-color: #423189;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #3700b3;
+}
+
+/* Дополнительные стили, чтобы сохранить читаемость контента */
+.container, .jumbotron {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Пример стилизации картинок */
+img {
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Пример стилизации списков */
+ul {
+    color: #ffffff;
+}
+
+input {
+    color: #ffffff;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #1e1e1e; /* Цвет фона заголовка */
+    z-index: 1000; /* Позиционируем заголовок над остальным контентом */
+    border-radius: 20px;
+}
+
+/* Увеличение изображений при наведении */
+.img-fluid:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Пример анимации при наведении на заголовок */
+h5:hover {
+    color: #007bff;
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+/* Оформление элементов списка */
+ul {
+    color: #ffffff;
+    padding-left: 20px;
+}
+
+/* Пример стилизации рамки вокруг контента */
+.container, .jumbotron {
+    border: 1px solid #333;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+/* Улучшенные стили для кнопок */
+.btn-primary {
+    background-color: #6200ea;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #4400a5;
+}
+
+/* Анимация для кнопок */
+.btn-primary {
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #4400a5;
+    transform: scale(1.05);
+}
+/* Улучшенные стили для контейнеров и изображений */
+.container, .jumbotron {
+    border: 1px solid #333;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+/* Анимация для элементов списка */
+ul li {
+    transition: color 0.2s ease-in-out;
+}
+
+ul li:hover {
+    color: #03dac6;
+    cursor: pointer;
+}
+
+/* Стилизация текстовых полей */
+input[type="text"], input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Анимация для текстовых полей */
+input[type="text"]:focus, input[type="email"]:focus {
+    border-color: #6200ea;
+    box-shadow: 0px 0px 8px rgba(98, 0, 234, 0.5);
+}
+/* Градиентный фон для header */
+header {
+    background: linear-gradient(to bottom, #1e1e1e, #121212);
+}
+
+/* Градиент для кнопок */
+.btn-primary {
+    background: linear-gradient(to bottom, #6200ea, #4400a5);
+}
+
+/* Эффект тени при нажатии на кнопку */
+.btn-primary:active {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Анимация для текстовых полей при фокусе */
+input[type="text"]:focus, input[type="email"]:focus {
+    border-color: #6200ea;
+    box-shadow: 0px 0px 10px rgba(98, 0, 234, 0.7);
+    transform: scale(1.02);
+    transition: transform 0.2s ease-in-out;
+}
+/* Разнообразные цвета для заголовков */
+h2 {
+    color: #ff6f61;
+}
+
+h3 {
+    color: #5bc0de;
+}
+
+h4 {
+    color: #d9534f;
+}
+
+#table {
+    color: white;
+}
